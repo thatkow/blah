@@ -1,0 +1,41 @@
+{
+  "name": "basic",
+  "unitTest": true,
+  "description": "asdfasd",
+  "inputBinding": [],
+  "binding": [
+    {
+      "knob": {
+        "knobName": "arg1",
+        "description": "A detailed description of argument 1",
+        "required": true,
+        "knobDataType": "TEXT",
+        "defaultValue": "",
+        "validationRule": "",
+        "tooltip": ""
+      },
+      "knobValue": "a"
+    },
+    {
+      "knob": {
+        "knobName": "arg2",
+        "description": "A detailed description of argument 2",
+        "required": true,
+        "knobDataType": "TEXT",
+        "defaultValue": "",
+        "validationRule": "",
+        "tooltip": ""
+      },
+      "knobValue": "b"
+    }
+  ],
+  "expIdentical": [
+    {
+      "expectedFilepath": "out.txt",
+      "actualFilepath": "out.txt"
+    }
+  ],
+  "expSize": [],
+  "expPercentageIdentical": [],
+  "expExists": []
+}

@@ -1,0 +1,12 @@
+---
+#
+# Denpendency script for blah,
+# Usage: ansible-playbook Linux.yml
+# Description: Script to install dependencies required by blah,
+#
+- hosts: all
+  tasks:
+  - shell: hostname
+    register: result
+  - name: Greet the world
+    debug: msg="Hello World from {{result.stdout}}!"

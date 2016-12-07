@@ -1,0 +1,33 @@
+{
+  "algorithmName": "blah_algorithm",
+  "pluginName": "blah",
+  "versionCode": 1,
+  "versionString": "1.0",
+  "author": "",
+  "description": "desc",
+  "legacy": false,
+  "knobs": [
+    {
+      "knobName": "arg1",
+      "description": "A detailed description of argument 1",
+      "required": true,
+      "knobDataType": "TEXT",
+      "defaultValue": "",
+      "validationRule": "",
+      "tooltip": ""
+    },
+    {
+      "knobName": "arg2",
+      "description": "A detailed description of argument 2",
+      "required": true,
+      "knobDataType": "TEXT",
+      "defaultValue": "",
+      "validationRule": "",
+      "tooltip": ""
+    }
+  ],
+  "inputDataSets": [],
+  "scriptTemplateFilename": "script.sh.tmpl",
+  "htmlHelp": "english.html",
+  "whenLastUpdated": "Dec 7, 2016 10:31:49 PM"
+}
